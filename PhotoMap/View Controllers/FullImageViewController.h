@@ -1,6 +1,6 @@
 //
 //  FullImageViewController.h
-//  PhotoMap
+//  PhotoMapro
 //
 //  Created by emersonmalca on 7/8/18.
 //  Copyright © 2018 Codepath. All rights reserved.

@@ -7,6 +7,7 @@
 //
 
 #import "FullImageViewController.h"
+#import <UIKit/UIKit.h>
 
 @interface FullImageViewController ()
 

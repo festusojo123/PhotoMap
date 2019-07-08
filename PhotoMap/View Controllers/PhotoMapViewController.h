@@ -10,4 +10,7 @@
 
 @interface PhotoMapViewController : UIViewController
 
+- (void)viewDidLoad;
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info;
+
 @end

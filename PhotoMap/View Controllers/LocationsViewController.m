@@ -9,8 +9,8 @@
 #import "LocationsViewController.h"
 #import "LocationCell.h"
 
-static NSString * const clientID = @"YOUR_CLIENT_ID";
-static NSString * const clientSecret = @"YOUR_CLIENT_SECRET";
+static NSString * const clientID = @"QA1L0Z0ZNA2QVEEDHFPQWK0I5F1DE3GPLSNW4BZEBGJXUCFL";
+static NSString * const clientSecret = @"W2AOE1TYC4MHK5SZYOUGX0J3LVRALMPB4CXT3ZH21ZCPUMCU";
 
 @interface LocationsViewController () <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
@@ -31,7 +31,12 @@ static NSString * const clientSecret = @"YOUR_CLIENT_SECRET";
     self.searchBar.delegate = self;
 }
 
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+
 - (void)didReceiveMemoryWarning {
+    
+    //take locationsViewController:didPickLocationWithLatitude:longitude
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
